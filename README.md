@@ -10,7 +10,7 @@ The model was trained with advanced techniques such as **data augmentation**, **
 This project demonstrates the full deep learning workflow — from dataset preparation to deployment:
 
 1. **Data loading & preprocessing** using `torchvision.transforms`
-2. **Model architecture** designed from scratch (4 convolutional blocks + GAP + Linear)
+2. **Model architecture** designed from scratch (5 convolutional blocks + Adaptive Average Pooling + Linear)
 3. **Training loop** with real-time TensorBoard logging
 4. **Validation & checkpointing** to save best and latest models
 5. **Inference script** for single-image prediction

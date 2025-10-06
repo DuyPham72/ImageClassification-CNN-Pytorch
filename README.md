@@ -18,3 +18,12 @@ This project demonstrates the full deep learning workflow — from dataset prepa
 ---
 
 ## Project Structure
+Animal-CNN-Classifier
+├── dataset.py   # Custom dataset loader for training & validation
+├── model.py         # CNN architecture definition
+├── train.py         # Training loop with checkpoint saving & tensorboard logging
+├── inference.py     # Script for running inference on single image
+├── curr_model.pt    # Latest model checkpoint
+├── best_model.pt    # Best model weights (highest validation accuracy)
+├── my_tensorboard/  # TensorBoard logs (loss & accuracy curves)
+└── README.md        # Project description (this file)

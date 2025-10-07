@@ -83,10 +83,10 @@ Animal-CNN-Classifier
 Some statistics are shown below:
 <p align="center">
   <img src="demo/statistic.png"><br/>
-  <i>Custom CNN evaluation.</i>
+  <i>Statistics of train and validation loss.</i>
 </p>
 
 <p align="center">
   <img src="demo/confusion matrix.png"><br/>
-  <i>Custom CNN evaluation.</i>
+  <i>Confusion matrix distribution.</i>
 </p>

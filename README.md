@@ -41,7 +41,7 @@ Animal-CNN-Classifier
   Download the dataset from [kaggle](https://www.kaggle.com/datasets/alessiocorrado99/animals10/data). Make sure to put the files and folders as the following structure (The root folder names **raw-image**):
   ```
   raw-image
-  ├── test/
+  ├── test
   │   ├── butterfly/
   │   ├── cat/
   │   ├── chicken/
@@ -52,7 +52,7 @@ Animal-CNN-Classifier
   │   ├── sheep/
   │   ├── spider/
   │   └── squirrel/
-  ├── train/
+  ├── train
   │   ├── butterfly/
   │   ├── cat/
   │   ├── chicken/

@@ -66,6 +66,27 @@ Animal-CNN-Classifier
   └── translate.py 
   ```
 
-## Results
+---
 
-Some predictions are shown below:
+## Model Architecture
+- 5 convolutional blocks (3 → 64 → 64 → 128 → 256 → 512 channels)
+- Kernel size: 3×3  
+- Stride: varies (1 or 2 for downsampling)
+- BatchNorm + ReLU after each Conv
+- Adaptive Average Pooling to (1×1)
+- Fully connected layer: 512 → num_classes
+- **Total parameters: ~4.7M**
+
+---
+
+## Evaluation
+Some statistics are shown below:
+<p align="center">
+  <img src="demo/statistic.png"><br/>
+  <i>Custom CNN evaluation.</i>
+</p>
+
+<p align="center">
+  <img src="demo/confusion matrix.png"><br/>
+  <i>Custom CNN evaluation.</i>
+</p>

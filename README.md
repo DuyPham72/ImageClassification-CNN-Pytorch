@@ -74,7 +74,7 @@ Animal-CNN-Classifier
 - Stride: varies (1 or 2 for downsampling)
 - BatchNorm + ReLU after each Conv
 - Adaptive Average Pooling to (1×1)
-- Fully connected layer: 512 → num_classes
+- Fully connected layer: 512 → 10 (number of classes)
 - **Total parameters: ~4.7M**
 
 ---

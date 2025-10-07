@@ -27,7 +27,7 @@ Animal-CNN-Classifier
 ├── inference.py     # Script for running inference on single image
 ├── curr_model.pt    # Latest model checkpoint
 ├── best_model.pt    # Best model weights (highest validation accuracy)
-└── README.md        # Project description (this file)
+└── README.md        # Project description
 ```
 
 ---

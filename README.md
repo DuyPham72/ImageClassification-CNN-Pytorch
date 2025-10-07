@@ -42,27 +42,27 @@ Animal-CNN-Classifier
   ```
   raw-image
   ├── test/
-  │   ├── butterfly
-  │   ├── cat
-  │   ├── chicken
-  │   ├── cow
-  │   ├── dog
-  │   ├── elephant
-  │   ├── horse
-  │   ├── sheep
-  │   ├── spider
-  │   └── squirrel
+  │   ├── butterfly/
+  │   ├── cat/
+  │   ├── chicken/
+  │   ├── cow/
+  │   ├── dog/
+  │   ├── elephant/
+  │   ├── horse/
+  │   ├── sheep/
+  │   ├── spider/
+  │   └── squirrel/
   ├── train/
-  │   ├── butterfly
-  │   ├── cat
-  │   ├── chicken
-  │   ├── cow
-  │   ├── dog
-  │   ├── elephant
-  │   ├── horse
-  │   ├── sheep
-  │   ├── spider
-  │   └── squirrel
+  │   ├── butterfly/
+  │   ├── cat/
+  │   ├── chicken/
+  │   ├── cow/
+  │   ├── dog/
+  │   ├── elephant/
+  │   ├── horse/
+  │   ├── sheep/
+  │   ├── spider/
+  │   └── squirrel/
   └── translate.py 
   ```
 
